@@ -65,5 +65,8 @@ body{
     .Extract-btn{
         margin-top: 30px;
     }
+    .input-btn{
+        width: 100%;
+    }
     
 }
