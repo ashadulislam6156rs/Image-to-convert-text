@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.container{
+    height: auto;
+    text-align: center;
+    margin: 0px 50px;
+    padding: 20px;
+
+}
+.input-btn {
+  padding: 10px;
+  border: 2px solid #4E47FF;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.Extract-btn{
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: darkorchid;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+.Extract-btn:hover{
+    background-color: black;
+    color: white;
+}
+.extract-area{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.main-container{
+ width: 100%;
+ height: auto;
+  border: 2px solid #4E47FF;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 45px;
+  padding-bottom: 40px;
+ 
+}
+@media screen and (max-width: 576px) {
+    .Extract-btn{
+        margin-top: 30px;
+    }
+    
+}
